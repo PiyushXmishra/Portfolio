@@ -42,6 +42,7 @@ const Hero = () => {
     <section className="section  md:px-16 flex items-center justify-center">
     <ThreeDCardDemo/>
     </section>
+    
   </div>
   </>
   )

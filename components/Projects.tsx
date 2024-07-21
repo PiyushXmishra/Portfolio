@@ -12,7 +12,7 @@ export function Projects() {
         </p>
         
       </div>
-    <div className="max-w-5xl mx-auto pr-8">
+    <div className="max-w-5xl mx-auto ">
       <HoverEffect items={projects} />
     </div>
     </>
@@ -35,6 +35,5 @@ export const projects = [
       "Not Your Another Youtube Downloader.",
     Weblink: "http://34.27.210.129/",
     GithubLink:""
-  },
-  
+  }
 ];

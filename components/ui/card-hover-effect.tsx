@@ -6,6 +6,7 @@ import { useState } from "react";
 import Image from "next/image";
 import {Github2} from "@/components/icons/icons"
 import { Globe } from "@/components/icons/icons";
+import { LinkPreview } from "./link-preview";
 export const HoverEffect = ({
   items,
   className,
@@ -25,7 +26,7 @@ export const HoverEffect = ({
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-2 gap-x-20 py-10 ",
+        "grid grid-cols-1 md:grid-cols-2 gap-x-20 py-10  ",
         className
       )}
     >
@@ -95,17 +96,19 @@ export const Card = ({
         <p className="text-xl font-bold text-white">{event}</p>
       </div>
       <div>
-        <div className="flex items-center pt-4 pl-5 z-50">
+        <LinkPreview url={Weblink}>
+        <div className="flex items-center pt-4 pl-5 z-50 ">
           <Image
             src={image}
             alt={""}
             fill
             className="!h-10 !w-min !static "
           />
-          <div className="ml-5  ">
+          <div className="ml-5 ">
             <CardTitle>{title}</CardTitle>
           </div>
-        </div>
+        </div>  
+         </LinkPreview>
 
         <div className="pl-6 pt-2 ">
           <CardDescription>{description}</CardDescription>
