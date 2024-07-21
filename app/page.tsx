@@ -9,7 +9,8 @@ import { Projects } from "@/components/Projects";
 import Footer from "@/components/Footer";
 export default function Home() {
   return (
-    <div className="hidden md:block">
+    <div>
+      <div className="hidden md:block">
       <NavbarDemo />
       <Hero />
       <LinksStrip />
@@ -17,6 +18,10 @@ export default function Home() {
       <Skills />
       <Projects />
       <Footer/>
+      </div>
+      <div className="md:hidden flex items-center justify-center h-screen text-custom-teal font-bold text-sm sm:text-xl">
+  <p>For a better experience, please use a larger screen.</p>
+</div>
     </div>
   );
 }
