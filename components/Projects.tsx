@@ -33,7 +33,7 @@ export const projects = [
     event:"PiyushXmishra",
     description:
       "Not Your Another Youtube Downloader.",
-    Weblink: "http://34.27.210.129/",
-    GithubLink:""
+    Weblink: "",
+    GithubLink:"https://github.com/PiyushXmishra/ytdl"
   }
 ];

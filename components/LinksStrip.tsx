@@ -6,7 +6,7 @@ const links = [
   { href: "https://in.linkedin.com/in/piyush-mishra-5b6aa129a", icon: <Linkedin /> ,id:2, tooltip:"Linkedin"},
   { href: "https://mail.google.com/mail/?view=cm&fs=1&to=piyushbhp83@gmail.com", icon: <Mail /> ,id:3, tooltip:"Gmail"},
   { href: "https://x.com/Piyuxh1501", icon: <Twitter />,id:4, tooltip:"Twitter" },
-  { href: "", icon: <Me />,id:5, tooltip:"it's Me" },
+  // { href: "", icon: <Me />,id:5, tooltip:"it's Me" },
 ];
 
 const LinkStrip = () => {
